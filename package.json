@@ -1,0 +1,38 @@
+{
+  "name": "back-taker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/sorakie/back-taker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/sorakie/back-taker/issues"
+  },
+  "homepage": "https://gitlab.com/sorakie/back-taker#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.18.2",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "body-parser-graphql": "^1.1.0",
+    "cloudinary": "^1.23.0",
+    "deepmerge": "^4.2.2",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "graphql": "^15.3.0",
+    "graphql-upload": "^11.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "nodemailer": "^6.4.13",
+    "shortid": "^2.2.15",
+    "throng": "^5.0.0"
+  }
+}
